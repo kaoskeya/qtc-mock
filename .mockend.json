@@ -1,5 +1,6 @@
 {
   "Billing": {
+    "id": { "int": {} },
     "service": { "string": ["vod", "cpm", "cdn"] },
     "quantity": { "int": { "min": 0, "max": 100 } },
     "date": {
@@ -9,7 +10,7 @@
       }
     },
     "amagi_id": {
-      "regexp": "AMB[0-9]{5}"
+      "regexp": "AMG[0-9]{5}"
     }
   }
 }
